@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N generate_dictionary
+#PBS -M jiaxuan@umich.edu
+#PBS -m abe
+#PBS -V
+
+#PBS -A jiadeng_flux
+#PBS -l qos=flux
+#PBS -q flux
+#PBS -l nodes=30
+#PBS -l mem=100g
+#PBS -l walltime=20:00:00
+
+####  End PBS preamble
+
+#  Include the next three lines always
+if [ "x${PBS_NODEFILE}" != "x" ] ; then
+   cat $PBS_NODEFILE   # contains a list of the CPUs you were using
+fi
+
+#  Put your job commands after this line
+module load matlab
+matlab -nodisplay -nodesktop -r "run('eecs442final_project/final_project/gen_dict.m')"
+echo "process complete"

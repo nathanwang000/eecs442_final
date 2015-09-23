@@ -1,0 +1,31 @@
+function massive_generate_input_file()  
+    addpath '/scratch/jiadeng_fluxg/shared/hico_20150920'
+    load anno_iccv.mat
+    %     if 1
+    %     global sched
+    %     sched= findResource('scheduler', 'type', 'mpiexec')
+    %     set(sched, 'MpiexecFileName', '/home/software/rhel6/mpiexec/bin/mpiexec')
+    %     set(sched, 'EnvironmentSetMethod', 'setenv') %the syntax for matlabpool must use the (sched, N) format
+    %     matlabpool(sched, 16);
+    % end
+     for i=360:length(list_action)        
+        action = list_action(i);
+        
+        [config, config_fg, ...
+        trainingpath, savefile, hi, name, testpath, ...
+        trainingpath_fg, savefile_fg, hi_fg, name_fg, testpath_fg, ...
+        trainingfilepath, trainingfileflippedpath, ...
+        trainingfilepath_fg, trainingfileflippedpath_fg, ...
+        trainingfilegt, ...
+        testfilepath, testfileflippedpath, ...
+        testfilepath_fg, testfileflippedpath_fg, ...
+        testfilegt] = smallConfig(action);
+
+        % generate input .mat file
+        fprintf('generateInputfile for %s %s, working on %d/%d\n', action.vname, action.nname, i, length(list_action));
+        generate_matinputfile(trainingpath, savefile, hi, name, testpath);
+        fprintf('generateInputfile finishes for %s %s: \n', action.vname, action.nname);
+                       
+    end
+    %matlabpool close;
+end

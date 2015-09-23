@@ -1,0 +1,237 @@
+'/home/software/rhel6/mpiexec/bin/mpiexec'  -n 16  'worker' -parallel
+======BEGIN LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+======BEGIN LICENSE MANAGER ERROR======
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB_Distrib_Comp_Engine reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2013a/4
+
+Diagnostic Information:
+Feature: MATLAB_Distrib_Comp_Engine 
+License path: /home/jiaxuan/.matlab/R2013a_licenses:/usr/flux/software/rhel6/matlab/R2013a/licenses/license.dat:/u
+sr/flux/software/rhel6/matlab/R2013a/licenses/network.lic 
+Licensing error: -4,132.
+======END LICENSE MANAGER ERROR======
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+To get started, type one of these: helpwin, helpdesk, or demo.
+ 
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+For product information, visit www.mathworks.com.
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> network undefined checking PBS queue
+network undefined checking PBS queue
+found flux queue assuming infiniband
+found flux queue assuming infiniband
+Using Infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+[mpiexec@nyx5379.arc-ts.umich.edu] control_cb (./pm/pmiserv/pmiserv_cb.c:201): assert (!closed) failed
+[mpiexec@nyx5379.arc-ts.umich.edu] HYDT_dmxu_poll_wait_for_event (./tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@nyx5379.arc-ts.umich.edu] HYD_pmci_wait_for_completion (./pm/pmiserv/pmiserv_pmci.c:196): error waiting for event
+[mpiexec@nyx5379.arc-ts.umich.edu] main (./ui/mpich/mpiexec.c:325): process manager error waiting for completion

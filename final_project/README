@@ -1,0 +1,34 @@
+README
+------
+
+Code for:
+Combining Randomization and Discrimination for Fine-Grained Image Cateogrization, CVPR2011
+Bangpeng Yao*, Aditya Khosla* and Li Fei-Fei (* - indicates equal contribution)
+http://vision.stanford.edu/discrim_rf/
+
+The following steps give the overview of our method:
+
+Step 0. Extract foreground images
+The code for this step is available in createForegroundImages.m
+
+Step 1. Feature extraction for training and test data and random forest training. 
+Multi-scale Grayscale SIFT -> Dictionary Learning -> LLC Pooling -> Combine to MAT file for random forest -> generate .TXT binary feature file from .MAT file for training data -> random forest training 
+The code for this step is availale in train_RF.m
+
+Step 2. Random forest testing
+generate .TXT binary feature file from .MAT file for test data -> random forest testing
+The code for this step is available in test_RF.m
+
+If you modify any of the *.cpp or *.h files, please run the following to re-compile the MEX code: 
+ "mex dttrain.cpp decisiontree.cpp treeaccessory.cpp parameters.cpp nodeclassifier.cpp feature.cpp linear.cpp tron.cpp yblas.cpp".
+ "mex dttest.cpp decisiontree.cpp treeaccessory.cpp parameters.cpp nodeclassifier.cpp feature.cpp linear.cpp tron.cpp yblas.cpp"
+
+We use the VOCdevkit for loading files and AP evaluation, which can be found here:
+ http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2011/#devkit 
+
+We use LIBLINEAR for training a SVM at each node of the tree in random forest. The required code is included in this package. For reference the LIBLINEAR code can be found here:
+ http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+
+configuration file (createConfiguration.m): this contains the various parameters used in different stages of the above pipeline. The current setting of the parameters corresponds to those used in the PASCAL VOC Action classification experiments.
+
+Please contact bangpeng@cs.stanford.edu, khosla@mit.edu, or kyunghee.kim@stanford.edu for any questions/clarifications.

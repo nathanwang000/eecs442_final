@@ -1,0 +1,26 @@
+function gen_input_files()  
+    addpath '/scratch/jiadeng_fluxg/shared/hico_20150920/'
+    load anno_iccv.mat
+
+     % from 230 b/c prev work was already done
+     for i=230:330
+        action = list_action(i);
+        
+        [config, config_fg, ...
+        trainingpath, savefile, hi, name, testpath, ...
+        trainingpath_fg, savefile_fg, hi_fg, name_fg, testpath_fg, ...
+        trainingfilepath, trainingfileflippedpath, ...
+        trainingfilepath_fg, trainingfileflippedpath_fg, ...
+        trainingfilegt, ...
+        testfilepath, testfileflippedpath, ...
+        testfilepath_fg, testfileflippedpath_fg, ...
+        testfilegt] = smallConfig(action);
+
+        % generate input .mat file
+        fprintf('generateInputfile for %s %s, working on %d/%d\n', action.vname, action.nname, i, length(list_action));
+        generate_matinputfile(trainingpath, savefile, hi, name, testpath);
+        fprintf('generateInputfile finishes for %s %s: \n', action.vname, action.nname);
+                       
+    end
+
+end

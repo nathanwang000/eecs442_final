@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -N sift_extraction
+#PBS -M jiaxuan@umich.edu
+#PBS -m abe
+#PBS -V
+
+#PBS -A jiadeng_flux
+#PBS -l qos=flux
+#PBS -q flux
+# #PBS -l nodes=1:ppn=12
+#PBS -l nodes=110
+#PBS -l mem=100g
+#PBS -l walltime=24:00:00
+#PBS -l gres=matlab:1%matlab_distrib_comp_engine:110
+
+####  End PBS preamble
+
+#  Include the next three lines always
+if [ "x${PBS_NODEFILE}" != "x" ] ; then
+   cat $PBS_NODEFILE   # contains a list of the CPUs you were using
+fi
+
+#  Put your job commands after this line
+module load matlab
+matlab -nodisplay -nodesktop -r "run('eecs442final_project/final_project/massive_extract_sift.m')"
+echo "process completed"
+

@@ -1,0 +1,191 @@
+nyx5591
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: findResource will be removed in a future release. Use parcluster
+instead.] 
+
+sched =
+
+mpiexec Scheduler Information
+=============================
+
+                      Type : mpiexec
+             ClusterOsType : unix
+               ClusterSize : Inf
+              DataLocation : /home/jiaxuan/eecs442final_project/final_project
+       HasSharedFilesystem : true
+
+- Assigned Jobs
+
+           Number Pending  : 0
+           Number Queued   : 0
+           Number Running  : 2
+           Number Finished : 1
+
+- mpiexec Specific Properties
+
+         ClusterMatlabRoot : 
+      EnvironmentSetMethod : -env
+           MpiexecFileName : /usr/flux/software/rhel6/matlab/R2013a/bin/gln...
+           SubmitArguments : 
+Starting matlabpool ... [Warning: MPIEXEC can only cancel jobs on the host where the job was submitted
+(job 121 was submitted from client nyx5812.engin.umich.edu).] 
+[> In distcomp.mpiexec.pCancelJob at 54
+  In distcomp.mpiexec.pDestroyJob at 11
+  In distcomp.abstractjob.destroy at 66
+  In InteractiveClient>@(jobs)destroy(jobs)
+  In InteractiveClient>InteractiveClient.pRemoveOldJobs at 402
+  In InteractiveClient>InteractiveClient.start at 260
+  In MatlabpoolHelper>MatlabpoolHelper.doOpen at 363
+  In MatlabpoolHelper>MatlabpoolHelper.doMatlabpool at 137
+  In distcomp.abstractscheduler.matlabpool at 57
+  In createMatFilesFg at 5
+  In massive_createMatFilesFg_dev at 28
+  In run at 64] 
+[Warning: Found 2 pre-existing communicating job(s) created by matlabpool that
+are running. You can create a profile for the cluster and use 'matlabpool close
+force <profileName>' to remove all jobs created by matlabpool.] 
+[> In InteractiveClient>InteractiveClient.pRemoveOldJobs at 426
+  In InteractiveClient>InteractiveClient.start at 260
+  In MatlabpoolHelper>MatlabpoolHelper.doOpen at 363
+  In MatlabpoolHelper>MatlabpoolHelper.doMatlabpool at 137
+  In distcomp.abstractscheduler.matlabpool at 57
+  In createMatFilesFg at 5
+  In massive_createMatFilesFg_dev at 28
+  In run at 64] 
+connected to 16 workers.
+createMatFiles: 46 of 544, set: tr, flip: 0
+createMatFiles: 303 of 544, set: tr, flip: 0
+createMatFiles: 229 of 544, set: tr, flip: 0
+createMatFiles: 92 of 544, set: tr, flip: 0
+createMatFiles: 319 of 544, set: tr, flip: 0
+createMatFiles: 334 of 544, set: tr, flip: 0
+createMatFiles: 207 of 544, set: tr, flip: 0
+createMatFiles: 138 of 544, set: tr, flip: 0
+createMatFiles: 115 of 544, set: tr, flip: 0
+createMatFiles: 69 of 544, set: tr, flip: 0
+createMatFiles: 286 of 544, set: tr, flip: 0
+createMatFiles: 249 of 544, set: tr, flip: 0
+createMatFiles: 184 of 544, set: tr, flip: 0
+createMatFiles: 268 of 544, set: tr, flip: 0
+createMatFiles: 23 of 544, set: tr, flip: 0
+createMatFiles: 161 of 544, set: tr, flip: 0
+createMatFiles: 318 of 544, set: tr, flip: 0
+createMatFiles: 137 of 544, set: tr, flip: 0
+createMatFiles: 68 of 544, set: tr, flip: 0
+createMatFiles: 45 of 544, set: tr, flip: 0
+createMatFiles: 91 of 544, set: tr, flip: 0
+createMatFiles: 248 of 544, set: tr, flip: 0
+createMatFiles: 302 of 544, set: tr, flip: 0
+createMatFiles: 206 of 544, set: tr, flip: 0
+createMatFiles: 160 of 544, set: tr, flip: 0
+createMatFiles: 267 of 544, set: tr, flip: 0
+createMatFiles: 333 of 544, set: tr, flip: 0
+createMatFiles: 285 of 544, set: tr, flip: 0
+createMatFiles: 114 of 544, set: tr, flip: 0
+createMatFiles: 136 of 544, set: tr, flip: 0
+createMatFiles: 67 of 544, set: tr, flip: 0
+createMatFiles: 44 of 544, set: tr, flip: 0
+createMatFiles: 317 of 544, set: tr, flip: 0
+createMatFiles: 159 of 544, set: tr, flip: 0
+createMatFiles: 22 of 544, set: tr, flip: 0
+createMatFiles: 266 of 544, set: tr, flip: 0
+createMatFiles: 90 of 544, set: tr, flip: 0
+createMatFiles: 284 of 544, set: tr, flip: 0
+createMatFiles: 135 of 544, set: tr, flip: 0
+createMatFiles: 205 of 544, set: tr, flip: 0
+createMatFiles: 301 of 544, set: tr, flip: 0
+createMatFiles: 228 of 544, set: tr, flip: 0
+createMatFiles: 158 of 544, set: tr, flip: 0
+createMatFiles: 43 of 544, set: tr, flip: 0
+createMatFiles: 66 of 544, set: tr, flip: 0
+createMatFiles: 265 of 544, set: tr, flip: 0
+createMatFiles: 283 of 544, set: tr, flip: 0
+createMatFiles: 21 of 544, set: tr, flip: 0
+createMatFiles: 247 of 544, set: tr, flip: 0
+createMatFiles: 113 of 544, set: tr, flip: 0
+createMatFiles: 332 of 544, set: tr, flip: 0
+createMatFiles: 183 of 544, set: tr, flip: 0
+createMatFiles: 300 of 544, set: tr, flip: 0
+createMatFiles: 204 of 544, set: tr, flip: 0
+createMatFiles: 134 of 544, set: tr, flip: 0
+createMatFiles: 65 of 544, set: tr, flip: 0
+createMatFiles: 282 of 544, set: tr, flip: 0
+createMatFiles: 246 of 544, set: tr, flip: 0
+createMatFiles: 157 of 544, set: tr, flip: 0
+createMatFiles: 264 of 544, set: tr, flip: 0
+createMatFiles: 316 of 544, set: tr, flip: 0
+createMatFiles: 112 of 544, set: tr, flip: 0
+createMatFiles: 89 of 544, set: tr, flip: 0
+createMatFiles: 331 of 544, set: tr, flip: 0
+createMatFiles: 182 of 544, set: tr, flip: 0
+createMatFiles: 42 of 544, set: tr, flip: 0
+createMatFiles: 227 of 544, set: tr, flip: 0
+createMatFiles: 203 of 544, set: tr, flip: 0
+createMatFiles: 245 of 544, set: tr, flip: 0
+createMatFiles: 133 of 544, set: tr, flip: 0
+createMatFiles: 64 of 544, set: tr, flip: 0
+createMatFiles: 20 of 544, set: tr, flip: 0
+createMatFiles: 315 of 544, set: tr, flip: 0
+createMatFiles: 111 of 544, set: tr, flip: 0
+createMatFiles: 88 of 544, set: tr, flip: 0
+createMatFiles: 181 of 544, set: tr, flip: 0
+createMatFiles: 41 of 544, set: tr, flip: 0
+createMatFiles: 330 of 544, set: tr, flip: 0
+createMatFiles: 299 of 544, set: tr, flip: 0
+createMatFiles: 226 of 544, set: tr, flip: 0
+createMatFiles: 281 of 544, set: tr, flip: 0
+createMatFiles: 63 of 544, set: tr, flip: 0
+createMatFiles: 263 of 544, set: tr, flip: 0
+createMatFiles: 244 of 544, set: tr, flip: 0
+createMatFiles: 132 of 544, set: tr, flip: 0
+createMatFiles: 156 of 544, set: tr, flip: 0
+createMatFiles: 110 of 544, set: tr, flip: 0
+createMatFiles: 87 of 544, set: tr, flip: 0
+createMatFiles: 180 of 544, set: tr, flip: 0
+createMatFiles: 314 of 544, set: tr, flip: 0
+createMatFiles: 225 of 544, set: tr, flip: 0
+createMatFiles: 40 of 544, set: tr, flip: 0
+createMatFiles: 298 of 544, set: tr, flip: 0
+createMatFiles: 62 of 544, set: tr, flip: 0
+createMatFiles: 280 of 544, set: tr, flip: 0
+createMatFiles: 262 of 544, set: tr, flip: 0
+createMatFiles: 202 of 544, set: tr, flip: 0
+createMatFiles: 329 of 544, set: tr, flip: 0
+createMatFiles: 19 of 544, set: tr, flip: 0
+createMatFiles: 131 of 544, set: tr, flip: 0
+createMatFiles: 243 of 544, set: tr, flip: 0
+createMatFiles: 109 of 544, set: tr, flip: 0
+createMatFiles: 155 of 544, set: tr, flip: 0
+createMatFiles: 313 of 544, set: tr, flip: 0
+createMatFiles: 179 of 544, set: tr, flip: 0
+createMatFiles: 86 of 544, set: tr, flip: 0
+createMatFiles: 297 of 544, set: tr, flip: 0
+createMatFiles: 61 of 544, set: tr, flip: 0
+createMatFiles: 224 of 544, set: tr, flip: 0
+createMatFiles: 201 of 544, set: tr, flip: 0
+createMatFiles: 328 of 544, set: tr, flip: 0
+createMatFiles: 261 of 544, set: tr, flip: 0
+createMatFiles: 279 of 544, set: tr, flip: 0
+createMatFiles: 130 of 544, set: tr, flip: 0
+createMatFiles: 18 of 544, set: tr, flip: 0
+createMatFiles: 154 of 544, set: tr, flip: 0
+createMatFiles: 178 of 544, set: tr, flip: 0
+createMatFiles: 39 of 544, set: tr, flip: 0
+createMatFiles: 108 of 544, set: tr, flip: 0
+createMatFiles: 60 of 544, set: tr, flip: 0
+createMatFiles: 85 of 544, set: tr, flip: 0
+createMatFiles: 200 of 544, set: tr, flip: 0
+createMatFiles: 296 of 544, set: tr, flip: 0
+createMatFiles: 260 of 544, set: tr, flip: 0
+createMatFiles: 223 of 544, set: tr, flip: 0
+createMatFiles: 278 of 544, set: tr, flip: 0
+createMatFiles: 129 of 544, set: tr, flip: 0

@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N prepare train test files
+#PBS -M jiaxuan@umich.edu
+#PBS -m abe
+#PBS -V
+
+#PBS -A jiadeng_flux
+#PBS -l qos=flux
+#PBS -q flux
+#PBS -l nodes=1
+#PBS -l mem=4g
+#PBS -l walltime=1:00:00
+
+####  End PBS preamble
+
+#  Include the next three lines always
+if [ "x${PBS_NODEFILE}" != "x" ] ; then
+   cat $PBS_NODEFILE   # contains a list of the CPUs you were using
+fi
+
+#  Put your job commands after this line
+module load matlab
+matlab -nodisplay -nodesktop -r "run('eecs442final_project/final_project/prepareTrainTest.m')"
+#matlab -nodisplay -nodesktop -r "run('/nfs/vision0/jiaxuan/bangpengcode/discrim_rf/step1small.m')"
+#matlab -nodisplay -nodesktop -r "run('/nfs/vision0/jiaxuan/bangpengcode/discrim_rf/step2small.m')"

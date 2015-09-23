@@ -1,0 +1,7 @@
+step0#!/bin/bash
+# author: Jiaxuan Wang
+# description: step 0 createForegroundImages
+mkdir -p dataset_fg
+matlab -nodisplay -nosplash -nodesktop -r 'createForegroundImages(0); createForegroundImages(1); exit;'
+
+

@@ -1,0 +1,25 @@
+
+#!/bin/bash
+#PBS -N super_gen_input_37_42
+#PBS -M jiaxuan@umich.edu
+#PBS -m abe
+#PBS -V
+
+#PBS -A jiadeng_flux
+#PBS -l qos=flux
+#PBS -q flux
+#PBS -l nodes=1
+#PBS -l mem=1g
+#PBS -l walltime=10:00:00
+
+####  End PBS preamble
+
+#  Include the next three lines always
+if [ "x${PBS_NODEFILE}" != "x" ] ; then
+   cat $PBS_NODEFILE   # contains a list of the CPUs you were using
+fi
+
+#  Put your job commands after this line
+module load matlab
+matlab -nodisplay -nodesktop -r "cd eecs442final_project/final_project/;super_massive_generate_idsfile(37:42)"
+echo "process complete"

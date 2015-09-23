@@ -1,0 +1,135 @@
+'/home/software/rhel6/mpiexec/bin/mpiexec'  -n 10  'worker' -parallel
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+>> network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+ 
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >>  
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+For product information, visit www.mathworks.com.
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> network undefined checking PBS queue
+network undefined checking PBS queue
+network undefined checking PBS queue
+network undefined checking PBS queue
+found flux queue assuming infiniband
+found flux queue assuming infiniband
+found flux queue assuming infiniband
+found flux queue assuming infiniband
+Using Infiniband
+Using Infiniband
+Using Infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+network undefined checking PBS queue
+found flux queue assuming infiniband
+Using Infiniband
+[mpiexec@nyx5128.arc-ts.umich.edu] control_cb (./pm/pmiserv/pmiserv_cb.c:201): assert (!closed) failed
+[mpiexec@nyx5128.arc-ts.umich.edu] HYDT_dmxu_poll_wait_for_event (./tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@nyx5128.arc-ts.umich.edu] HYD_pmci_wait_for_completion (./pm/pmiserv/pmiserv_pmci.c:196): error waiting for event
+[mpiexec@nyx5128.arc-ts.umich.edu] main (./ui/mpich/mpiexec.c:325): process manager error waiting for completion
