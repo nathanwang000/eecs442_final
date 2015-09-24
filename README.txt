@@ -13,11 +13,11 @@ The steps in using Bangpeng's methods are: (assumption: see pythonUtils for the 
 6. dictionary learning (2 hours) 
 7. llc extraction (< 11 hours?) 
 --- Day 2
-8. createMatFilesBg (< 1 hours?) (* run to here)
-9. integral extraction (< 2 hours?) (* finished) 
-10. outputBinaryFeature for both train and test (< 10 hours?) (* cleaned to here) (clean this to not use parfor!)
+8. createMatFilesBg (< 4 hours) 
+9. integral extraction (< 2 hours?)
+10. outputBinaryFeature for both train and test (< 6 hours?) 
 --- Day 3
-11. trainRF (9 hours ?)
+11. trainRF (9 hours ?) (* run to here)
 12. testRF (< 1 hour?)
 
 ==== general information about the dataset  /scratch/jiadeng_fluxg/shared/hico_20150920
@@ -41,10 +41,11 @@ massive_extract_integral; % save integral images, use corresponding files in pbs
 (in terminal) cd ../pbsfiles;
 (in terminal) python super_gen.py; % output Binary feature (this file doesn't exist, see output binary feature train and test)
 (in terminal) python gen_RF_train.py; % train RF
+(in terminal) genDatasetName % prepare for report result
 (in terminal) python /scratch/jiadeng_fluxg/jiaxuan/python_helper_bin/gen_del_trees.py; # delete empty trees
 (in terminal) python gen_RF_test.py; % test RF
 (in terminal) cd /scratch/jiadeng_fluxg/jiaxuan/python_helper_bin;
-(in terminal) python report_result.py; # report result
+(in terminal) python currResult.py; # report result
 
 
 * The final result is stored in final_result.txt, which I included in /scratch/jiadeng_fluxg/jiaxuan/final_result.txt

@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N RFtr194
+#PBS -M jiaxuan@umich.edu
+#PBS -m abe
+#PBS -V
+
+#PBS -A jiadeng_flux
+#PBS -l qos=flux
+#PBS -q flux
+#PBS -l nodes=1 
+#PBS -l mem=8g
+#PBS -l walltime=24:00:00
+
+####  End PBS preamble
+# previous node=12, mem=90
+#  Include the next three lines always
+if [ "x${PBS_NODEFILE}" != "x" ] ; then
+   cat $PBS_NODEFILE   # contains a list of the CPUs you were using
+fi
+
+#  Put your job commands after this line
+module load matlab
+matlab -nodisplay -nodesktop -r "cd eecs442final_project/final_project/;RFtr194"
+echo "process completed"

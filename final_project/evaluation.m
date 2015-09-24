@@ -47,6 +47,12 @@ gt = ones(numImages, 1) .* -1;
 gt(find(classVec1 == currClass)) = 1;
 gt(find(classVec2 == currClass)) = 1;
 out = result(:, currClass);
+% give out a mask to accomodate neg 2
+% if currClass==1 out( anno_test(anno_test(1,:)~=0)==-2 ) = 0 end
+% TODO:
+% 1) write a new file called evaluation_wo_neg2.m
+% 2) write a pythonUtils/speedupEval.py for it
+% 3) run it
 
 [so, si] = sort(-out);
 tp = gt(si) > 0;

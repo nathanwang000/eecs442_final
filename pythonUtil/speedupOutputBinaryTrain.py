@@ -54,14 +54,14 @@ pbs = '''\
 #!/bin/bash
 #PBS -N %s%d
 #PBS -M jiaxuan@umich.edu
-#PBS -m abe
+#PBS -m a
 #PBS -V
 
 #PBS -A jiadeng_flux
 #PBS -l qos=flux
 #PBS -q flux
 #PBS -l nodes=1
-#PBS -l mem=5g
+#PBS -l mem=4g
 #PBS -l walltime=10:00:00
 
 ####  End PBS preamble
@@ -87,7 +87,7 @@ def genFiles(index, start, end, name):
         f.write(pbs % (name, index, name, index))
     # submit the file
     print("cd %s; qsub %s%d.pbs" % (os.path.dirname(pbsFile), name, index))
-    #os.system("cd %s; qsub %s%d.pbs" % (os.path.dirname(pbsFile), name, index))
+    os.system("cd %s; qsub %s%d.pbs" % (os.path.dirname(pbsFile), name, index))
 
 if __name__ == '__main__':
     index = 1
